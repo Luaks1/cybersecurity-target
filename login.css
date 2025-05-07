@@ -1,0 +1,106 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff, #eff5fb, #ffffff);
+  padding-top: 0;
+}
+#login {
+  position: absolute;
+  width: 300px;
+  min-height: 100%;
+  left: 50%;
+  margin-left: -150px;
+  background: linear-gradient(to right, #ffffff, #eff5fb, #ffffff);
+  padding: 0;
+}
+#login .title {
+  margin-top: 65px;
+  width: 300px;
+  text-align: center;
+  /*background: white;*/
+  padding: 5px 0;
+}
+#login .title img {
+  background: white;
+  border-radius: 64px;
+  border: #eff5fb solid 2px;
+  padding: 0 11px;
+}
+#login .title h2 {
+  margin: 0;
+  line-height: 0.83;
+}
+#login form {
+  margin: 60px 20px;
+}
+#login form input,
+#login form .bootstrap-select {
+  width: 235px;
+}
+#login form abbr {
+  color: white;
+  background: #337ab7;
+  font-weight: bold;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  text-align: center;
+  margin: 6px 0;
+  padding: 1px 0 0 1px;
+}
+#login form .dropup .caret {
+  border-top: 4px dashed;
+  border-bottom: none;
+}
+#login form .btn-primary {
+  width: 50%;
+}
+#login form .btn-link {
+  padding-right: 0;
+}
+/*# sourceMappingURL=login.css.map */
